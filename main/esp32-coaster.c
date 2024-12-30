@@ -3,6 +3,7 @@
 #include <lm75a.h>
 #include <stdio.h>
 #include <u8g2_esp32_hal.h>
+#include "encoder.h"
 
 #include "config.h"
 
@@ -81,5 +82,7 @@ void print_sensors()
 
 void app_main(void)
 {
-    print_sensors();
+//    print_sensors();
+    Encoder_init();
+    Encoder_Test();
 }

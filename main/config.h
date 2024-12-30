@@ -21,6 +21,6 @@
 #define CHARGE_LED GPIO_NUM_8
 #define CHARGE_FULL_LED GPIO_NUM_10
 
-static u8g2_t u8g2;
+extern u8g2_t u8g2;
 
 #endif //CONFIG_H
